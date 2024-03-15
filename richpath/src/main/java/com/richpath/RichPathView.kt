@@ -72,7 +72,7 @@ class RichPathView(context: Context?, attrs: AttributeSet?, defStyleAttr: Int) :
     }
 
     override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
-        val vector = vector ?: return
+        val vector = vector
         val desiredWidth = vector.width
         val desiredHeight = vector.height
 
