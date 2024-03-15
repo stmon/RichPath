@@ -16,7 +16,8 @@ import com.richpath.util.XmlParser
 import java.io.IOException
 import kotlin.math.min
 
-class RichPathView(context: Context?, attrs: AttributeSet?, defStyleAttr: Int) : AppCompatImageView(context, attrs, defStyleAttr) {
+class RichPathView(context: Context?, attrs: AttributeSet?, defStyleAttr: Int) : AppCompatImageView(
+    context!!, attrs, defStyleAttr) {
 
     constructor(context: Context?, attrs: AttributeSet?): this(context, attrs, 0)
 
